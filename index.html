@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iránytű Betegtámogató Program</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="bg-white">
+      <div class="mt-12 py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <h2 class="mb-10 mt-6 text-4xl tracking-tight font-extrabold text-center text-black">Iránytű Betegtámogató Program Tájékoztató</h2>
+        <p class="text-gray-500 mb-8 lg:mb-8 font-light">
+          A Medusmart Kft. és a Sanofi Aventis Zrt. Betegtámogató Programot indít, felnőtt 2-es típusú diabéteszes betegek számára.<br /><br />
+          A program célja, hogy javítsa a diabéteszes betegeknek betegségük megértését, javítsa önellátási tudásukat és összességében ösztönözze a kezeléshez való ragaszkodást, közvetlen megfigyelésen és személyre szabott oktatási programon keresztül.<br /><br />
+          A programot egy beteg mobilalkalmazás (Dr.app), egy Kezelőorvosi web portál, egy Diabetes Edukátor call center támogatja. Ezek eszközök segítik a betegek a kezelőorvosok és a Diabétesz edukátorok közötti kommunikációt, oktatást és adatcsere folyamatát.
+        </p>
+        <p class="text-gray-600 mb-2 lg:mb-8 font-semibold">Amennyiben érdekli programunk és szeretne több információt megtudni az induló programmal kapcsolatban, kérjük töltse ki az alábbi adatokat és felvesszük Önnel a kapcsolatot!</p>
+
+        <!--Form-->
+        <form action="#" class="space-y-8">
+          <div>
+            <label for="titulus" class="block mb-2 text-sm font-medium text-gray-900">Titulus</label>
+            <input type="text" id="titulus" required class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Mr, Mrs, Dr, stb." required />
+          </div>
+          <div>
+            <label for="vezeteknev" class="block mb-2 text-sm font-medium text-gray-900">Vezetéknév</label>
+            <input type="text" id="vezeteknev" required class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="pl. Nagy" required />
+          </div>
+          <div>
+            <label for="keresztnev" class="block mb-2 text-sm font-medium text-gray-900">Keresztnév</label>
+            <input type="text" id="keresztnev" required class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Pl. Mária" required />
+          </div>
+          <div>
+            <label for="pecsetszam" class="block mb-2 text-sm font-medium text-gray-900">Pecsétszám</label>
+            <input type="text" id="pecsetszam" required class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="12345" required />
+          </div>
+          <div>
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email cím</label>
+            <input type="email" id="email" required class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="nev@gmail.com" required />
+          </div>
+          <div>
+            <label for="email2" class="block mb-2 text-sm font-medium text-gray-900">Email cím megerősítése</label>
+            <input type="email" id="email2" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="nev@gmail.com" required />
+          </div>
+          <div>
+            <label for="telefonszam" class="block mb-2 text-sm font-medium text-gray-900">Telefonszám</label>
+            <input type="text" id="telefonszam" placeholder="+36 70 123 4567" required class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Let us know how we can help you" required />
+          </div>
+          <div>
+            <label for="praxisHelye" class="block mb-2 text-sm font-medium text-gray-900">Praxis helye / vármegye</label>
+            <input type="text" id="praxisHelye" required class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="Heves vármegye" required />
+          </div>
+          <div class="flex justify-between">
+            <div class="flex items-start">
+              <div class="flex items-center h-5">
+                <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+              </div>
+              <label for="remember" class="ms-2 text-sm text-gray-500">Elfogadom a felhasználási feltételeket és adatvédelmi irányelveket.</label>
+            </div>
+          </div>
+          <button type="submit" class="flex mx-auto py-3 px-12 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Feliratkozom</button>
+        </form>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-white rounded-lg shadow m-4">
+      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center">© 2024 <a href="https://medusmart.net/" class="hover:underline">Medusmart Kft</a>. Minden jog fenntartva.</span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
+          <li>
+            <a href="https://medusmart.net/" target="_newtab" class="hover:underline me-4 md:me-6">Rólunk</a>
+          </li>
+          <li>
+            <a href="/adatvedelem" target="_newtab" class="hover:underline me-4 md:me-6">Adatvédelmi irányelvek</a>
+          </li>
+          <li>
+            <a href="mailto:eordogh.mate@medusmart.net" target="_newtab" class="hover:underline">Kapcsolat</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--Email is the same check-->
+    <script>
+      function verify() {
+        if (document.getElementById("email").value === document.getElementById("email2").value) {
+          alert("matched");
+        } else {
+          document.getElementById("submit").setAttribute("disabled", "disabled");
+          alert("not matched");
+        }
+      }
+    </script>
+  </body>
+</html>
